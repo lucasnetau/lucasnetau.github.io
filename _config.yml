@@ -216,8 +216,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: Australia/Sydney # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
+timezone: "Australia/Sydney"
 
 # Plugins (previously gems:)
 plugins:
@@ -286,3 +285,4 @@ defaults:
       comments: # true
       share: true
       related: true
+      timezone: "Australia/Sydney"
