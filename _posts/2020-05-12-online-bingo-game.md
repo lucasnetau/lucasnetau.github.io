@@ -1,6 +1,6 @@
 ---
 title:  "Web based Bingo Game to play with friends and family"
-date:   2017-09-27 21:00:00
+date:   2020-05-12 10:00:00
 category: software
 tags: [game, software, lockdown, javascript]
 ---
