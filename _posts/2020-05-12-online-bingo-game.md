@@ -6,7 +6,8 @@ tags: [game, software, lockdown, javascript]
 ---
 # Bingo
 
-During the 2020 lockdown, we all started looking to video calls, Zoom etc to keep in touch with Friends and Family. 
+During the 2020 lockdown, we all started looking to video calls, Zoom etc to keep in touch with Friends and Family.
+BINGO was one of these games that we had fond memories of playing in the University bar.
 I created this online BINGO system because I couldn't find anything around that was free and simple to start a game without any accounts etc.
 
 You do not need anything special to play this other than an internet connection and device, it works on phones, tablets and desktops.
