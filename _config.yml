@@ -102,8 +102,8 @@ analytics:
 author:
   name             : "James Lucas"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "Software Developer, IoT and Smart Home enthusiast"
+  location         : "Sydney, Australia"
   email            :
   links:
     - label: "Email"
@@ -136,7 +136,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/lucasnetau"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
