@@ -1,8 +1,7 @@
 ---
 permalink: /software
+title: Software Projects
 ---
-# Software Projects
-
 ## PHP Event Correlator
 <https://github.com/lucasnetau/php-ec>
 
