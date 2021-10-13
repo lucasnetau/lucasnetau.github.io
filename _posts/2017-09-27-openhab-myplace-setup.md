@@ -4,16 +4,18 @@ date:   2017-09-27 21:00:00
 category: smarthome
 tags: [openhab, myplace, myair]
 ---
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/openhab-myplace-setup.png)
+
 ## Pre-Requisites 
  - MyPlace Controller
- - Openhab Installed (OpenHabian is a great ready to go distribution) - Tested with version 2.1 & 2.2 beta
+ - Openhab Installed (OpenHabian is a great ready to go distribution) - Tested with version 2.1+
  - HTTP Binding (Version 1 Binding http://docs.openhab.org/addons/bindings/http1/readme.html) 
 
 The setup is simplified if a static IP address is assigned to your MyPlace system by your router rather than a dynamic IP.
 
 ## Steps
 ### Binding configuration
-By default the HTTP Binding provides support to include the current state or command, or the current date/time. It does this with the help of java.util.Formatter. The AdvantageAir API unfortunetly chose to use the HTTP GET method for changing state of the system and has JSON strings in the query paramater. These conflict with java.util.Formatter so we need to disable this feature.
+By default, the HTTP Binding provides support to include the current state or command, or the current date/time. It does this with the help of java.util.Formatter. The AdvantageAir API unfortunately chose to use the HTTP GET method for changing state of the system and has JSON strings in the query paramater. These conflict with java.util.Formatter so we need to disable this feature.
 
 Append to $OPENHAB_CONF/services/http.cfg
 ```sh
@@ -192,4 +194,6 @@ $OPENHAB_CONF/sitemap/default.sitemap (Or choose your sitemap)
 ```
 
 ### Control away
-Browse to your BasicUI sitemap you just modified and you can control the AC Power State, Mode, MyZone and Set Point for Zone 1. You can also see the current temperature recorded in Zone 1.
+Browse to your BasicUI sitemap you just modified, and you can control the AC Power State, Mode, MyZone and Set Point for Zone 1. You can also see the current temperature recorded in Zone 1.
+
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/filename.jpg)
