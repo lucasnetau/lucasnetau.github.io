@@ -4,7 +4,7 @@ date:   2017-09-27 21:00:00
 category: smarthome
 tags: [openhab, myplace, myair]
 ---
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/openhab-myplace-setup.png)
+![Openhab Sitemap View]({{ site.url }}{{ site.baseurl }}/assets/images/openhab-myplace-setup/openhab.png)
 
 ## Pre-Requisites 
  - MyPlace Controller
@@ -196,4 +196,4 @@ $OPENHAB_CONF/sitemap/default.sitemap (Or choose your sitemap)
 ### Control away
 Browse to your BasicUI sitemap you just modified, and you can control the AC Power State, Mode, MyZone and Set Point for Zone 1. You can also see the current temperature recorded in Zone 1.
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/filename.jpg)
+![Openhab Sitemap View]({{ site.url }}{{ site.baseurl }}/assets/images/openhab-myplace-setup/openhab.png)
