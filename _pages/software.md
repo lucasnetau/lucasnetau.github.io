@@ -14,7 +14,7 @@ PHP-EC is being used in production for multiple IoT projects, some processing 10
 ## Timebucket 
 <https://github.com/lucasnetau/timebucket>
 
-A PHP library group data into slices of time and then retrieve data via a time ordered queue.
+A PHP library aggregate data into slices of time (for example 1 minute, 5 minute, 6 hours) and then retrieve data via a time ordered queue.
 
 ## PHP JSON-RPC
 <https://github.com/lucasnetau/php-json-rpc>
