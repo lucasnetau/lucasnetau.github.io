@@ -11,21 +11,21 @@ Event correlation is useful in many areas. For example, log processing, microser
 
 PHP-EC is being used in production for multiple IoT projects, some processing 10M+ events per day from multiple disparate systems.
 
-### Timebucket 
+## Timebucket 
 <https://github.com/lucasnetau/timebucket>
 
 A PHP library group data into slices of time and then retrieve data via a time ordered queue.
 
-### PHP JSON-RPC
+## PHP JSON-RPC
 <https://github.com/lucasnetau/php-json-rpc>
 
 PHP Library for JSON-RPC communication (Client and Server). Includes a ReactPHP ReadableStreamInterface decoding helper for parsing RPC packets.
 
-### ReactPHP compatible Async DNS over HTTPS client
+## ReactPHP compatible Async DNS over HTTPS client
 <https://github.com/lucasnetau/reactphp-dns-over-https-client>
 Resolve DNS queries over HTTPS, provides secure DNS resolution over untrusted or shared networks (eg Serverless deployments) utilising standard HTTPS queries.
 
-### ReactPHP compatible Async HTTP/2 Browser utilising Curl
+## ReactPHP compatible Async HTTP/2 Browser utilising Curl
 <https://github.com/lucasnetau/reactphp-http-browser-curl>
 Implementation of an Async HTTP client using CURL.
 
